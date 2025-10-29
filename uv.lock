@@ -22,7 +22,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/aa/f3/0b6ced594e51cc95d8c1fc1640d3623770d01e4969d29c0bd09945fafefa/altair-5.5.0-py3-none-any.whl", hash = "sha256:91a310b926508d560fe0148d02a194f38b824122641ef528113d029fcd129f8c", size = 731200, upload-time = "2024-11-23T23:39:56.4Z" },
 ]
 [[package]]
-name = "python-dotenv"
+name = "dotenv"
 version = "1.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = []
