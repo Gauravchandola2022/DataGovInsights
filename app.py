@@ -3,9 +3,9 @@
 Project Samarth - Intelligent Q&A System for Indian Agricultural and Climate Data
 A Streamlit-based chat interface for querying data.gov.in datasets with AI-powered analysis
 """
-from dotenv import load_dotenv
-load_dotenv()
-print("✅ dotenv loaded successfully")
+# from dotenv import load_dotenv
+# load_dotenv()
+
 import streamlit as st
 import os
 from query_orchestrator import QueryOrchestrator
