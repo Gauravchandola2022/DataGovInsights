@@ -1,0 +1,38 @@
+Project Samarth
+The Vision: Government portals like data.gov.in are repositories for thousands of valuable, high-granularity datasets that are released by the government for the public to use. However, the data exists in varied formats and structures across different ministries, making it difficult for policymakers and researchers to derive the cross-domain insights needed for effective decision-making.
+
+Your Mission: Your mission is to design and build a functional, end-to-end prototype of an intelligent Q&A system/chat interface over this data. This system must source its information directly from the live data.gov.in portal of the Indian Government to answer complex, natural language questions about the nation's agricultural economy and its relationship with climate patterns.
+
+
+Sample Questions your system must be able to answer:
+
+Compare the average annual rainfall in State_X and State_Y for the last N available years. In parallel, list the top M most produced crops of Crop_Type_C (by volume) in each of those states during the same period, citing all data sources.
+
+Identify the district in State_X with the highest production of Crop_Z in the most recent year available and compare that with the district with the lowest production of Crop_Z  in State_Y?
+
+Analyze the production trend of Crop_Type_C in the Geographic_Region_Y over the last decade. Correlate this trend with the corresponding climate data for the same period and provide a summary of the apparent impact.
+
+A policy advisor is proposing a scheme to promote Crop_Type_A (e.g., drought-resistant) over Crop_Type_B (e.g., water-intensive) in Geographic_Region_Y. Based on historical data from the last N years, what are the three most compelling data-backed arguments to support this policy? Your answer must synthesize data from both climate and agricultural sources.
+
+We are not prescribing a specific architecture; we are interested in your design choices and your ability to build a robust system that can reason across multiple, inconsistent data sources. 
+
+
+Phase 1: Data Discovery & Integration
+
+Data Sourcing: Navigate to the data.gov.in portal. Your first task is to identify and explore the available data sources from the Ministry of Agriculture & Farmers Welfare and the India Meteorological Department (IMD). You must determine the most effective and programmatic way to access this data for your system.
+
+The Challenge: You will find that these data sources are not designed to work together. Your system must be architected to handle their different structures, coded values, and formats to synthesize information across them in real-time.
+
+
+Phase 2: The Intelligent Q&A System
+
+The Core Task: Create an intelligent system that, when given a user's question, can determine which data sources to query, how to query them, and how to combine the results into a single, coherent answer.
+
+The Prototype: Build a simple, functional front-end interface for your system that allows a user to ask questions and receive answers.
+
+
+Core Values to Consider:
+
+Accuracy & Traceability: The system must provide accurate answers. For every claim or data point in its response, it must cite the specific source dataset it was derived from.
+
+Data Sovereignty and Privacy: Solutions that can be deployed in a secure, private environment are highly valued.
