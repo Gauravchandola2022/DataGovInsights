@@ -23,7 +23,7 @@ wheels = [
 ]
 [[package]]
 name = "python-dotenv"
-version = "1.2.1"
+version = "1.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     {name = "dotenv"},
